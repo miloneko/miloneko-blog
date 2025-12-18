@@ -1,0 +1,53 @@
+# ====================================================================
+# 基本設定
+# ====================================================================
+baseURL = 'https://miloneko-blog.com/'
+languageCode = 'ja-jp'
+title = 'miloneko blog'
+theme = "void"
+
+# ====================================================================
+# パラメータ設定 (Voidテーマ固有の設定)
+# ====================================================================
+[params]
+  description = "サーバーレスとインフラ学習の記録"
+  
+  # ソーシャルリンクの設定
+  [params.social]
+    github = "https://github.com/miloneko"
+    # twitter = "https://twitter.com/milust_"
+    # email = ""
+
+  # アバター画像の設定 (static/images/avatar.jpg などに配置)
+  [params.avatar]
+    url = "https://via.placeholder.com/150" # 自分の画像を用意するまでこれでOK
+
+[[menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[menus.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 30
+
+[markup]
+  # 目次 (Table of Contents) の設定
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Callout（注釈）やKaTeX（数式）、HTML埋め込みに必須
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
