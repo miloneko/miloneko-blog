@@ -5,6 +5,7 @@ baseURL = 'https://miloneko-blog.com/'
 languageCode = 'ja-jp'
 title = 'miloneko blog'
 theme = "void"
+themesDir = "my-theme"
 
 # ====================================================================
 # パラメータ設定 (Voidテーマ固有の設定)
