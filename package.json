@@ -2,7 +2,7 @@
   "name": "miloneko-blog",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx tailwindcss -i ./themes/void/assets/css/main.css -o ./static/css/main.css && hugo --minify"
+    "build": "./node_modules/.bin/tailwindcss -i ./themes/void/assets/css/main.css -o ./static/css/main.css && hugo --minify"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.18"
