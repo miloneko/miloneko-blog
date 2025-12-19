@@ -11,17 +11,17 @@ themesDir = "my-theme"
 # パラメータ設定 (Voidテーマ固有の設定)
 # ====================================================================
 [params]
-  description = "サーバーレスとインフラ学習の記録"
+  description = "日常とインフラ学習の記録"
   
   # ソーシャルリンクの設定
   [params.social]
     github = "https://github.com/miloneko"
-    # twitter = "https://twitter.com/milust_"
+    twitter = "https://twitter.com/milust_"
     # email = ""
 
   # アバター画像の設定 (static/images/avatar.jpg などに配置)
   [params.avatar]
-    url = "https://via.placeholder.com/150" # 自分の画像を用意するまでこれでOK
+    url = "/images/avatar.jpg" # static/images/avatar.jpg に画像ファイルを配置してください
 
 [[menus.main]]
   name = 'Home'
@@ -37,6 +37,11 @@ themesDir = "my-theme"
   name = 'Tags'
   pageRef = '/tags'
   weight = 30
+
+[[menus.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 40
 
 [markup]
   # 目次 (Table of Contents) の設定

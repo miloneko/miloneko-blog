@@ -27,9 +27,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
-<link rel="dns-prefetch" href="//busuanzi.ibruce.info">
-<link rel="preconnect" href="https://busuanzi.ibruce.info" crossorigin>
-
 
 <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
@@ -39,22 +36,7 @@
 
 
 
-  
-  
-    
-    
-      
-        <link rel="stylesheet" href="/css/main.css">
-      
-    
-  
-
-
-
-
-
-<link rel="stylesheet" href="/css/style.min.b8957659e8f2f20e0a23b5cc1f1154837f41cca9f5570fd8f30cd1c087568650.css" media="screen" integrity="sha256-uJV2Wejy8g4KI7XMHxFUg39BzKn1Vw/Y8wzRwIdWhlA=">
-
+  <link rel="stylesheet" href="/css/main.css">
 
 <link id="hljs-theme-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
 <link id="hljs-theme-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
@@ -68,13 +50,11 @@
       if(l && d){ l.disabled = dark; d.disabled = !dark; }
     }catch(e){}
   })();
-  </script>
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
-
   
       <script src="/js/main.js"></script>
 
@@ -463,8 +443,6 @@
 
 
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 </head>
 <body class="flex flex-col bg-gray-50 font-bilingual">
   <header class="fixed top-0 left-0 z-30 w-full bg-white shadow-sm">
@@ -485,11 +463,15 @@
     </li>
     <li class="text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white text-base sm:text-lg">
       <a
-        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors">Posts</a>
+        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors" href="/posts/">Posts</a>
     </li>
     <li class="text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white text-base sm:text-lg">
       <a
         class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors" href="/tags/">Tags</a>
+    </li>
+    <li class="text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white text-base sm:text-lg">
+      <a
+        class="px-2 py-1 sm:px-3 sm:py-2 rounded hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors" href="/about/">About</a>
     </li>
     </ul>
   </nav>
@@ -588,10 +570,14 @@
        
          
        
+     
+       
+         
+       
     
 
     
-    <div class="flex justify-center">
+    <div class="flex justify-center space-x-8">
       
       
       <div class="transform transition duration-200 hover:scale-110">
@@ -620,15 +606,38 @@
 
       
       
+      <div class="transform transition duration-200 hover:scale-110">
+        <a
+          href="https://twitter.com/milust_"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-600 hover:text-gray-900"
+          aria-label="Twitter"
+        >
+          <svg
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+            />
+          </svg>
+        </a>
+      </div>
+      
+
+      
+      
 
       
       
     </div>
 
     <div class="text-center mt-6 text-sm text-gray-500">
-      &copy; 2025 miloneko blog | Powered by <a href="https://github.com/Daucloud/hugo-theme-void" class="text-gray-600 hover:text-gray-900 hover:underline">hugo-theme-void</a> | <span id="busuanzi_container_site_pv" style="display: none;">Total visits: <span id="busuanzi_value_site_pv" class="text-gray-600"></span></span>
+      <p>&copy; 2025 miloneko blog</p>
     </div>
-    
   </div>
 </div>
 
