@@ -56,3 +56,4 @@ pnpm-lock.yaml
 # その他
 *.bak
 *.backup
+tailwindcss-linux-x64
