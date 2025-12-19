@@ -17,9 +17,15 @@
 {{ end }}
 
 <!-- Tailwind CSS -->
-{{ $css := resources.Get "css/style.css" }}
-{{ $styles := $css | resources.Minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen" integrity="{{ $styles.Data.Integrity }}">
+{{/* assets/css/main.css を直接取得し、失敗した場合は空のリソースを返すように安全策を設ける */}}
+{{ $css := resources.Get "css/main.css" }}
+{{ if $css }}
+  {{ $styles := $css | resources.Minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" media="screen" integrity="{{ $styles.Data.Integrity }}">
+{{ else }}
+  {{/* もしHugoがリソースとして認識できない場合は、直接パスを指定する（フォールバック） */}}
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+{{ end }}
 
 <!-- Code Highlighting (switchable themes) -->
 <link id="hljs-theme-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
