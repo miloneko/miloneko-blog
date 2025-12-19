@@ -6,8 +6,15 @@
     <description>Recent content on miloneko blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Dec 2025 01:50:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 01:55:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 20 Dec 2025 01:55:00 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;1996年生まれ。客室乗務員から業界未経験でエンジニアに転職し、現在4年目。受託開発企業で Go言語をメインにAPI開発・テスト実装（Playwrightを用いたテスト自動化など）を担当。最近はAWS設計 や Datadogによる運用にも携わる。業務を通して品質向上やインフラの重要性を実感し、現在は TechBullでインフラ領域を学習中。非エンジニア出身という立場を活かし、クラウド導入支援から設計まで担えるエンジニアを目指している。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Daily Test</title>
       <link>http://localhost:1313/posts/daily-test/</link>

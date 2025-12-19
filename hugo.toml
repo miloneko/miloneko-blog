@@ -11,7 +11,7 @@ themesDir = "my-theme"
 # パラメータ設定 (Voidテーマ固有の設定)
 # ====================================================================
 [params]
-  description = "サーバーレスとインフラ学習の記録"
+  description = "日常とインフラ学習の記録"
   
   # ソーシャルリンクの設定
   [params.social]
@@ -37,6 +37,11 @@ themesDir = "my-theme"
   name = 'Tags'
   pageRef = '/tags'
   weight = 30
+
+[[menus.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 40
 
 [markup]
   # 目次 (Table of Contents) の設定
