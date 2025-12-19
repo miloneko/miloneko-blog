@@ -36,6 +36,30 @@
       </div>
       {{ end }}
 
+      <!-- Twitter -->
+      {{ with .Site.Params.social.twitter }}
+      <div class="transform transition duration-200 hover:scale-110">
+        <a
+          href="{{ . }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-600 hover:text-gray-900"
+          aria-label="Twitter"
+        >
+          <svg
+            class="h-7 w-7"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+            />
+          </svg>
+        </a>
+      </div>
+      {{ end }}
+
       <!-- 知乎 -->
       {{ with .Site.Params.social.zhihu }}
       <div class="transform transition duration-200 hover:scale-110">
@@ -88,8 +112,7 @@
     </div>
 
     <div class="text-center mt-6 text-sm text-gray-500">
-      &copy; {{ now.Format "2006" }} {{ .Site.Title }} | Powered by <a href="https://github.com/Daucloud/hugo-theme-void" class="text-gray-600 hover:text-gray-900 hover:underline">hugo-theme-void</a> | <span id="busuanzi_container_site_pv" style="display: none;">Total visits: <span id="busuanzi_value_site_pv" class="text-gray-600"></span></span>
+      <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
     </div>
-    <!-- busuanzi script now loaded in head.html for faster page PV render -->
   </div>
 </div>
