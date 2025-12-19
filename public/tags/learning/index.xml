@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>miloneko blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on miloneko blog</description>
+    <title>Learning on miloneko blog</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in Learning on miloneko blog</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 20 Dec 2025 01:50:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Daily Test</title>
-      <link>http://localhost:1313/posts/daily-test/</link>
-      <pubDate>Sat, 20 Dec 2025 01:50:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/daily-test/</guid>
-      <description>&lt;p&gt;テスト&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Test</title>
       <link>http://localhost:1313/posts/learning-test/</link>
