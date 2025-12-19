@@ -1,9 +1,10 @@
 +++
-title = 'Daily Test'
+title = 'はじめまして'
 date = 2025-12-20T01:50:00+09:00
 draft = false
 tags = ['Daily']
 +++
 
-テスト
+はじめまして！milonekoです。
+このブログは、日常とインフラ学習の記録を残すためのゆるいブログです。
 

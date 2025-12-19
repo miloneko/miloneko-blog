@@ -16,18 +16,18 @@
       <description>&lt;p&gt;1996年生まれ。客室乗務員から業界未経験でエンジニアに転職し、現在4年目。受託開発企業で Go言語をメインにAPI開発・テスト実装（Playwrightを用いたテスト自動化など）を担当。最近はAWS設計 や Datadogによる運用にも携わる。業務を通して品質向上やインフラの重要性を実感し、現在は TechBullでインフラ領域を学習中。非エンジニア出身という立場を活かし、クラウド導入支援から設計まで担えるエンジニアを目指している。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Daily Test</title>
-      <link>http://localhost:1313/posts/daily-test/</link>
-      <pubDate>Sat, 20 Dec 2025 01:50:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/daily-test/</guid>
-      <description>&lt;p&gt;テスト&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Learning Test</title>
+      <title>AWS認定クラウドプラクティショナー（CLF）取得レポート｜学習方法と取得によるメリット</title>
       <link>http://localhost:1313/posts/learning-test/</link>
       <pubDate>Sat, 20 Dec 2025 01:50:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/learning-test/</guid>
-      <description>&lt;p&gt;テスト&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;※この記事は&lt;a href=&#34;https://techbull.cloud/archives/3710&#34;&gt;TechBull&lt;/a&gt;に私が投稿した記事の転載です。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&#xA;  &lt;a class=&#34;heading-anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34; aria-label=&#34;Copy link to this section&#34;&gt;&#xA;    &lt;svg viewBox=&#34;0 0 1024 1024&#34; width=&#34;18&#34; height=&#34;18&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;path d=&#34;M633.417143 429.007238a174.567619 174.567619 0 0 1 0 246.857143l-155.306667 155.306667a186.709333 186.709333 0 1 1-264.045714-264.045715l76.483048-76.507428 51.73638 51.736381-76.507428 76.507428a113.566476 113.566476 0 1 0 160.597333 160.597334l155.306667-155.306667a101.424762 101.424762 0 0 0 0-143.408762z m208.603428-225.816381a186.709333 186.709333 0 0 1 0 264.045714L765.561905 543.744l-51.736381-51.712 76.507428-76.507429a113.566476 113.566476 0 1 0-160.597333-160.597333l-155.306667 155.306667a101.424762 101.424762 0 0 0 0 143.408762l-51.736381 51.736381a174.567619 174.567619 0 0 1 0-246.857143l155.306667-155.306667a186.709333 186.709333 0 0 1 264.045714 0z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;はじめまして、TechBullメンバーの佐藤(@milust_)です。このたび、AWS認定クラウドプラクティショナー（以下、AWS CLF）を取得しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>はじめまして</title>
+      <link>http://localhost:1313/posts/daily-test/</link>
+      <pubDate>Sat, 20 Dec 2025 01:50:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/daily-test/</guid>
+      <description>&lt;p&gt;はじめまして！milonekoです。&#xA;このブログは、日常とインフラ学習の記録を残すためのゆるいブログです。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
