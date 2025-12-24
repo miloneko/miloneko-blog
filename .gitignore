@@ -11,6 +11,7 @@ _site/
 out/
 .cache/
 .parcel-cache/
+public/
 
 # 環境変数
 .env
